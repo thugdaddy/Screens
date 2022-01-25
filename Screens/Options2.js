@@ -11,12 +11,12 @@ import Colors from "../constants/colors";
 import { Entypo } from "@expo/vector-icons";
 import { RowItem, RowSeparator } from "../components/RowItem";
 
-export default ({ navigation }) => {
+export default () => {
   return (
     <SafeAreaView>
       <RowItem
         title="My School's Webpage"
-        onPress={() => navigation.push("OPtions")}
+        onPress={() => Linking.openURL("https://www.avonoldfarms.com")}
         rightIcon={
           <Entypo name="chevron-right" size={20} color={Colors.blue} />
         }
