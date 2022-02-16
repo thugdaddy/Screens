@@ -15,8 +15,8 @@ export default ({ navigation }) => {
   return (
     <SafeAreaView>
       <RowItem
-        title="You yell as loud as you can for help."
-        onPress={() => navigation.push("You Died Via Knife!")}
+        title="You see your hostage is planning to attack you, you grab the blade from the back of your pants and plunge it into their chest."
+        onPress={() => navigation.push("Cop Death!")}
         rightIcon={
           <Entypo name="chevron-right" size={20} color={Colors.blue} />
         }
@@ -25,8 +25,8 @@ export default ({ navigation }) => {
       <RowSeparator />
 
       <RowItem
-        title="You sit silently and wait in confusion."
-        onPress={() => navigation.push("Your Capture Enters The Room.")}
+        title="Your hostage tries to explain to you who he is so you humor them."
+        onPress={() => navigation.push("Humor Them!")}
         rightIcon={
           <Entypo name="chevron-right" size={20} color={Colors.blue} />
         }

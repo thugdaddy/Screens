@@ -15,8 +15,8 @@ export default ({ navigation }) => {
   return (
     <SafeAreaView>
       <RowItem
-        title="My School's Webpage"
-        onPress={() => navigation.push("OPtions")}
+        title="You wake up in a mysterious room, blind folded, tired, and confused."
+        onPress={() => navigation.push("Hostage")}
         rightIcon={
           <Entypo name="chevron-right" size={20} color={Colors.blue} />
         }
@@ -25,18 +25,8 @@ export default ({ navigation }) => {
       <RowSeparator />
 
       <RowItem
-        title="My Github Webpage"
-        onPress={() => Linking.openURL("https://thugdaddy.github.io")}
-        rightIcon={
-          <Entypo name="chevron-right" size={20} color={Colors.blue} />
-        }
-      />
-
-      <RowSeparator />
-
-      <RowItem
-        title="My Dad's Company"
-        onPress={() => Linking.openURL("http://fourninedesign.com")}
+        title="You hear your hostage waking up in your basement."
+        onPress={() => navigation.push("Capture")}
         rightIcon={
           <Entypo name="chevron-right" size={20} color={Colors.blue} />
         }
